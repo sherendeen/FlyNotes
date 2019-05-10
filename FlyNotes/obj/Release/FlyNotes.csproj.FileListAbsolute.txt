@@ -1,0 +1,9 @@
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\bin\Release\FlyNotes.exe.config
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\bin\Release\FlyNotes.exe
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\bin\Release\FlyNotes.pdb
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\obj\Release\FlyNotes.FlyNotes.resources
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\obj\Release\FlyNotes.Properties.Resources.resources
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\obj\Release\FlyNotes.csproj.GenerateResource.cache
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\obj\Release\FlyNotes.csproj.CoreCompileInputs.cache
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\obj\Release\FlyNotes.exe
+E:\Workspaces\VS2017\Fly\Fly\FlyNotes\obj\Release\FlyNotes.pdb

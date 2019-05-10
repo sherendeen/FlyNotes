@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document>
+ <Settings>
+  <Font>Consolas</Font>
+  <FontSize>12</FontSize>
+  <IsBold>false</IsBold>
+  <IsItalicized>false</IsItalicized>
+  <IsStriken>false</IsStriken>
+  <IsUnderlined>false</IsUnderlined>
+ </Settings>
+ <Text>
+	test.... test...
+	test
+ </Text>
+</Document>
