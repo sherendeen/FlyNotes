@@ -57,12 +57,27 @@ namespace FlyNotes
                 RestoreDirectory = true,
                 Title = "Browse Text Documents",
                 DefaultExt = "txt",
-                Filter = "Text files (*.txt)|*.txt|Flynote Files (*.fntxt)|*.fntxt|All files (*.*)|*.*",
+                Filter = "Text files (*.txt)|*.txt|Rich Text Files (*.rtf)|*.rtf|Flynote Files (*.fntxt)|*.fntxt|All files (*.*)|*.*",
                 FilterIndex = 1,
                 CheckFileExists = true,
                 CheckPathExists = true
             };
             return openFileDialog;
+        }
+
+        public static SaveFileDialog PrepareSaveFileDialog()
+        {
+            var saveFileDialog = new SaveFileDialog
+            {
+                InitialDirectory = $"{Environment.SpecialFolder.MyDocuments}",
+                RestoreDirectory = true,
+                Title = "Save File",
+                DefaultExt = "txt",
+                Filter = "Text files (*.txt)|*.txt|Rich Text Files (*.rtf)|*.rtf|Flynote Files (*.fntxt)|*.fntxt|All files (*.*)|*.*",
+                FilterIndex = 1,
+                CheckPathExists = true
+            };
+            return saveFileDialog;
         }
 
 

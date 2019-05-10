@@ -33,7 +33,6 @@
             this.mnuNew = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSave = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOpen = new System.Windows.Forms.ToolStripMenuItem();
-            this.asToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuEdit = new System.Windows.Forms.ToolStripMenuItem();
@@ -75,12 +74,10 @@
             this.mnuNew.Name = "mnuNew";
             this.mnuNew.Size = new System.Drawing.Size(180, 22);
             this.mnuNew.Text = "&New";
-            this.mnuNew.Click += new System.EventHandler(this.mnuNew_Click);
+            this.mnuNew.Click += new System.EventHandler(this.MnuNew_Click);
             // 
             // mnuSave
             // 
-            this.mnuSave.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.asToolStripMenuItem});
             this.mnuSave.Name = "mnuSave";
             this.mnuSave.Size = new System.Drawing.Size(180, 22);
             this.mnuSave.Text = "&Save";
@@ -92,13 +89,6 @@
             this.mnuOpen.Size = new System.Drawing.Size(180, 22);
             this.mnuOpen.Text = "&Open";
             this.mnuOpen.Click += new System.EventHandler(this.mnuOpen_Click);
-            // 
-            // asToolStripMenuItem
-            // 
-            this.asToolStripMenuItem.Name = "asToolStripMenuItem";
-            this.asToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.asToolStripMenuItem.Text = "&As";
-            this.asToolStripMenuItem.Click += new System.EventHandler(this.asToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -139,19 +129,20 @@
             // mnuDocumentation
             // 
             this.mnuDocumentation.Name = "mnuDocumentation";
-            this.mnuDocumentation.Size = new System.Drawing.Size(180, 22);
+            this.mnuDocumentation.Size = new System.Drawing.Size(179, 22);
             this.mnuDocumentation.Text = "&Documentation";
             this.mnuDocumentation.Click += new System.EventHandler(this.mnuDocumentation_Click);
             // 
             // mnuAbout
             // 
             this.mnuAbout.Name = "mnuAbout";
-            this.mnuAbout.Size = new System.Drawing.Size(180, 22);
+            this.mnuAbout.Size = new System.Drawing.Size(179, 22);
             this.mnuAbout.Text = "&About Fly Notes";
             this.mnuAbout.Click += new System.EventHandler(this.mnuAbout_Click);
             // 
             // rtBoxMain
             // 
+            this.rtBoxMain.AcceptsTab = true;
             this.rtBoxMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtBoxMain.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtBoxMain.Location = new System.Drawing.Point(0, 24);
@@ -185,7 +176,6 @@
         private System.Windows.Forms.ToolStripMenuItem mnuFile;
         private System.Windows.Forms.ToolStripMenuItem mnuNew;
         private System.Windows.Forms.ToolStripMenuItem mnuSave;
-        private System.Windows.Forms.ToolStripMenuItem asToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnuOpen;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem mnuExit;
